@@ -82,7 +82,7 @@ avatar: assets/img/eternal_banana.png
 toc: true
 
 comments:
-  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     # shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -92,10 +92,10 @@ comments:
     # issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: joeKody/joeKody.github.io # <gh-username>/<repo>
-    repo_id: R_kgDOJZMKCQ
-    category: General
-    category_id: DIC_kwDOJZMKCc4CV6se
+    repo: "joeKody/joeKody.github.io" # <gh-username>/<repo>
+    repo_id: "R_kgDOJZMKCQ"
+    category: "General"
+    category_id: "DIC_kwDOJZMKCc4CV6se"
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
